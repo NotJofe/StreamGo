@@ -4,7 +4,7 @@ html{
 }
 body{
     margin: 0;
-    background: linear-gradient(320deg, #031C32, #4389A2);
+    background: linear-gradient(320deg, #FFFFF, #4389A2);
 }
 .container{    
     max-width: 100%;
