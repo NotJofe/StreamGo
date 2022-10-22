@@ -27,7 +27,7 @@ body{
     top: 0px;
     left: 0px;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.377);
+    background-color: rgb(67, 137, 162, 0.6);
     box-shadow:0 4px 10px #031C32;
 }
 .Mainmenu{
@@ -51,7 +51,7 @@ body{
    0px;
    text-decoration: none;
    transition: color 0,50s;
-   background-color: #4abde7;
+   background-color: #22CBBF;
    padding: 0.7rem;
    border-radius: 0.5rem;
 }
@@ -78,7 +78,7 @@ body{
     font-size: 50px;
 }
 .Inicio__text__p{
-    font-family: 'Nexa';
+    font-family: 'Inter';
     font-weight: 50;
     font-size: 20px;
 }
@@ -97,6 +97,7 @@ body{
     font-family: 'Baloo';
     font-size: 20px;
     margin-right: 1rem;
+    color: white;
 }
 .Inicio__button2{
     padding: 0.8rem;
@@ -105,7 +106,19 @@ body{
     border-radius: 0.4rem;
     background-color: white;
     border-color: #5E39F0;
+    color: #5E39F0;
     font-family: 'Baloo';
     font-size: 20px;
     margin-left: 1rem;
+}
+.Frase{
+    padding-top: 1.5rem;
+    text-align: center;
+    font-family: 'Baloo';
+    color: white;
+    font-weight: 10;
+}
+.Frase__text{
+    font-size: 40px;
+    font-weight: 5;
 }
