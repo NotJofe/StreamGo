@@ -1,3 +1,13 @@
 # StreamGo
-Trabajo Final del Grupo Stringo del curso de IHC y Tecnologías Moviles
 
+Repository for the LandingPage of the StreamGo application, this web page is made with the CSS and HTML languages.
+
+
+## Authors
+
+- [@NotJofe](https://github.com/NotJofe)
+- [@AndreeCarrillo](https://github.com/AndreeCarrillo)
+
+## URL
+
+- StreamGo Landing Page()
