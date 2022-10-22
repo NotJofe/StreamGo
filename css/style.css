@@ -4,7 +4,7 @@ html{
 }
 body{
     margin: 0;
-    background: linear-gradient(320deg, #031C32, #4389A2);
+    background: linear-gradient(320deg, #0D1D5E, #0E1B53);
 }
 .container{    
     max-width: 100%;
@@ -51,7 +51,7 @@ body{
    0px;
    text-decoration: none;
    transition: color 0,50s;
-   background-color: #4389A2;
+   background-color: #4abde7;
    padding: 0.7rem;
    border-radius: 0.5rem;
 }
@@ -84,4 +84,28 @@ body{
 }
 .Inicio__img{
     padding-top: 1.5rem;
+}
+.Inicio__buttons{
+    padding: 0.5rem;
+    padding-left: 0rem;
+}
+.Inicio__button1{
+    padding: 0.8rem;
+    border-radius: 0.4rem;
+    background-color: #5E39F0;
+    border-color: #5E39F0;
+    font-family: 'Baloo';
+    font-size: 20px;
+    margin-right: 1rem;
+}
+.Inicio__button2{
+    padding: 0.8rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+    border-radius: 0.4rem;
+    background-color: white;
+    border-color: #5E39F0;
+    font-family: 'Baloo';
+    font-size: 20px;
+    margin-left: 1rem;
 }
