@@ -18,8 +18,8 @@ body{
     justify-content: space-between;
 }
 .nav{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0rem;
 }
 .header{
     font-family:Baloo;
@@ -40,7 +40,7 @@ body{
 .menu__link{
     color:rgb(6, 0, 66);
    font-weight: 400;
-   font-size: 20px;
+   font-size: 25px;
    text-decoration: none;
    transition: color 0,50s;
 }
@@ -52,14 +52,37 @@ body{
    text-decoration: none;
    transition: color 0,50s;
    background-color: #4389A2;
-   padding: 0.4rem;
+   padding: 0.7rem;
    border-radius: 0.5rem;
 }
 .Inicio{
     font-family:Baloo;
     padding-top: 7.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.Incio__text{
+    padding-right: 2rem;
+}
+.Incio__text__subtitle{
+    font-weight: 40;
+    font-size: 30px;
+    
+}
+.Inicio__text__title{
+    margin: 0;
+    font-weight: 700;
+    font-size: 50px;
+}
+.Inicio__text__p{
+    font-family: 'Nexa';
+    font-weight: 50;
+    font-size: 20px;
+}
+.Inicio__img{
+    padding-top: 1.5rem;
 }
 
-.Incio__text__subtitle{
-    font-weight: 100;
-}
