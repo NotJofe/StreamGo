@@ -5,8 +5,8 @@ Repository for the LandingPage of the StreamGo application, this web page is mad
 
 ## Authors
 
-- [@NotJofe](https://github.com/NotJofe)
-- [@AndreeCarrillo](https://github.com/AndreeCarrillo)
+- José Avila: [@NotJofe](https://github.com/NotJofe)
+- Andreé Carrillo: [@AndreeCarrillo](https://github.com/AndreeCarrillo)
 
 ## URL
 
