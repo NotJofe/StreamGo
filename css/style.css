@@ -5,6 +5,7 @@ html{
 body{
     margin: 0;
     background: linear-gradient(320deg, #0D1D5E, #0E1B53);
+    
 }
 .container{    
     max-width: 100%;
@@ -31,7 +32,7 @@ body{
     box-shadow:0 4px 10px #031C32;
 }
 .Mainmenu{
-    width: 65%;
+    width: 60%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -43,6 +44,15 @@ body{
    font-size: 25px;
    text-decoration: none;
    transition: color 0,50s;
+  
+}
+.menu__link:hover{
+    color:rgb(178, 122, 245);
+   font-weight: 400;
+   font-size: 25px;
+   text-decoration: none;
+   transition: color 0,50s;
+   
 }
 .menu__link__button{
     color:rgb(6, 0, 66);
@@ -54,6 +64,18 @@ body{
    background-color: #22CBBF;
    padding: 0.7rem;
    border-radius: 0.5rem;
+}
+.menu__link__button:hover{
+    color:rgb(32, 50, 131);
+   font-weight: 600;
+   font-size: 4
+   0px;
+   text-decoration: none;
+   transition: color 0,50s;
+   background-color: #2279cb;
+   padding: 0.7rem;
+   border-radius: 0.5rem;
+   
 }
 .Inicio{
     font-family:Baloo;
@@ -89,6 +111,10 @@ body{
     padding: 0.5rem;
     padding-left: 0rem;
 }
+.Inicio__buttons{
+    padding: 0.5rem;
+    padding-left: 0rem;
+}
 .Inicio__button1{
     padding: 0.8rem;
     border-radius: 0.4rem;
@@ -98,6 +124,7 @@ body{
     font-size: 20px;
     margin-right: 1rem;
     color: white;
+    transition: 0.3s all ease;
 }
 .Inicio__button2{
     padding: 0.8rem;
@@ -110,6 +137,11 @@ body{
     font-family: 'Baloo';
     font-size: 20px;
     margin-left: 1rem;
+    transition: 0.3s all ease;
+}
+.Inicio__button1:hover,.Inicio__button2:hover{
+    transform:translateY(-5px);
+    transition: 0.3s all ease;
 }
 .Frase{
     margin-top: 1.0rem;
@@ -155,6 +187,9 @@ body{
 .Beneficios__body{
     display: flex;
 }
+.Beneficios__body__mini_text{
+    display: flex;
+}
 .Beneficios__body__img{
     padding-left: 6rem;
     margin: 0rem;
@@ -183,6 +218,11 @@ body{
     font-family: 'Inter';
     font-size: 20px;
     padding-bottom: 4rem;
+}
+.Beneficios__body__text__p3{
+    font-family: 'Inter';
+    font-size: 20px;
+    padding-bottom: 0rem;
 }
 .Beneficios__body__minititles{
     margin-right: 0.5rem;
@@ -225,4 +265,24 @@ body{
     border-radius: 1rem;
     font-size: 35px;
     font-weight: 10;
+}
+.Beneficios__body__button1{
+    padding: 0.8rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+    border-radius: 3rem;
+    background-color: white;
+    border-color: #5E39F0;
+    color: #5E39F0;
+    font-family: 'Baloo';
+    font-size: 20px;
+    margin-top: 0rem;
+    margin-left: 15rem;
+    transition: 0.3s all ease;
+}
+.Beneficios__body__button1:hover{
+    color: white;
+    background-color: #5E39F0;
+    transform: translateY(-10px);
+    transition: 0.3s all ease;
 }
