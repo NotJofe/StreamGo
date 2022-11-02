@@ -62,20 +62,21 @@ body{
    text-decoration: none;
    transition: color 0,50s;
    background-color: #22CBBF;
-   padding: 0.7rem;
+   padding:    0.7rem;
    border-radius: 0.5rem;
+   transition: 0.5s;
 }
 .menu__link__button:hover{
-    color:rgb(32, 50, 131);
+    color:rgb(178, 122, 245);
    font-weight: 600;
    font-size: 4
    0px;
    text-decoration: none;
    transition: color 0,50s;
    background-color: #2279cb;
-   padding: 0.7rem;
+   padding: 1rem;
    border-radius: 0.5rem;
-   
+   transition: 0.5s;
 }
 .Inicio{
     font-family:Baloo;
@@ -100,7 +101,7 @@ body{
     font-size: 50px;
 }
 .Inicio__text__p{
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-weight: 50;
     font-size: 20px;
 }
@@ -149,15 +150,17 @@ body{
     padding-top: 0.1rem;
     padding-bottom: 1rem;
     text-align: center;
-    font-family: 'Baloo';
-    color: white;
+    font-family: 'Inter', sans-serif;
+    color: #22CBBF;
     font-weight: 10;
     background-color: rgba(0, 0, 0, 0.2);
     
 }
 .Frase__text{
     font-size: 40px;
-    font-weight: 5;
+    font-weight: 600;
+    margin-left: 6rem;
+    margin-right: 6rem;
 }
 .Frase__imgs{
     padding-bottom: 10px;
@@ -214,13 +217,20 @@ body{
     margin-top: 0.0rem;
     margin-top: 0rem;
 }
-.Beneficios__body__text__p{
-    font-family: 'Inter';
+.Beneficios__body__text__p1{
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     padding-bottom: 4rem;
+
+}
+.Beneficios__body__text__p2{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    padding-bottom: 2rem;
+
 }
 .Beneficios__body__text__p3{
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     padding-bottom: 0rem;
 }
@@ -268,16 +278,16 @@ body{
 }
 .Beneficios__body__button1{
     padding: 0.8rem;
-    padding-left: 1.6rem;
-    padding-right: 1.6rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
     border-radius: 3rem;
     background-color: white;
     border-color: #5E39F0;
     color: #5E39F0;
     font-family: 'Baloo';
     font-size: 20px;
-    margin-top: 0rem;
-    margin-left: 15rem;
+    margin-top: 1rem;
+    margin-left: 16rem;
     transition: 0.3s all ease;
 }
 .Beneficios__body__button1:hover{
@@ -285,4 +295,154 @@ body{
     background-color: #5E39F0;
     transform: translateY(-10px);
     transition: 0.3s all ease;
+}
+.Planes{
+ margin-top: 2rem;
+ margin-bottom: 2rem;
+}
+.Planes__header{
+    font-family: Baloo;
+    color: white;
+    text-align: center;
+}
+.Planes__header__p{
+   font-size: 25px;
+   margin-bottom: 0px;
+}
+.Planes__header__h1{
+    margin-top: 0.5rem;
+    font-size: 40px;
+    font-weight: 100;
+}
+.Planes__boxes{
+    display: flex;
+    margin: 1rem;
+    align-items: center;
+}
+.Planes__boxes__silver, .Planes__boxes__golden, .Planes__boxes__platinium{
+    border-radius: 2rem;
+}
+.Planes__boxes__silver{
+    background-color: white;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    transition: 0.5s;
+}
+.Planes__boxes__golden{
+    background-color:#081548;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    transition: 0.5s;
+}
+.Planes__boxes__platinium{
+    background-color: #060A32;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    transition: 0.5s;
+}
+.Plan__title{
+    text-align: center;
+    font-family: Baloo;
+    font-weight: 100;
+    color: #EA6656;
+    margin-bottom: 0rem;
+
+}
+.Plan__price{
+    margin-top: 0rem;
+    text-align: center;
+    font-family: Baloo;
+    font-size: 50px;
+    font-weight: 100;
+    margin-bottom: 0rem;
+    color: #F87B08;
+
+}
+.Plan__pormes{
+    margin-top: 0rem;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+.Plan__list{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    list-style-image: url(https://i.postimg.cc/5NGMxBDL/tinywow-5369443-7543398.png) ;
+    font-size: 18px;
+}
+.Plan__titlep{
+    text-align: center;
+    font-family: Baloo;
+    font-weight: 100;
+    color: #EA6656;
+    margin-bottom: 0rem;
+}
+.Plan__pricep{
+    margin-top: 0rem;
+    text-align: center;
+    font-family: Baloo;
+    font-size: 50px;
+    font-weight: 100;
+    margin-bottom: 0rem;
+    color: #F87B08;
+}
+.Plan__pormesp{
+    margin-top: 0rem;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+}
+.Plan__listp{
+    list-style-image: url(https://i.postimg.cc/5NGMxBDL/tinywow-5369443-7543398.png) ;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+
+}
+.Planes__img1{
+    margin-left: 6.5rem; 
+}
+.Planes__img2{
+    margin-left: 7.5rem;
+}
+.Planes__img3{
+    margin-left: 8rem;
+}
+.Plan__button{
+    padding: 0.6rem;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    border-radius: 3rem;
+    background-color: white;
+    border-color: #5E39F0;
+    color: #5E39F0;
+    font-family: 'Baloo';
+    font-size: 14px;
+    margin-top: 1rem;
+    margin-left: 3.3rem;
+    transition: 0.4s all ease;
+}
+.Plan__button:hover{
+    padding: 0.6rem;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    border-radius: 3rem;
+    background-color: #5E39F0;
+    border-color: #5E39F0;
+    color: white;
+    font-family: 'Baloo';
+    font-size: 14px;
+    margin-top: 1rem;
+    margin-left: 3.3rem;
+    transform: scaleX(-10px);
+    transition: 0.4s all ease;
 }
