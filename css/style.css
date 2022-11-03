@@ -1,6 +1,10 @@
 html{
     box-sizing: border-box;
     height: 100%;
+    scroll-behavior: smooth;
+}
+article[id]{
+    scroll-margin-top: 100px;
 }
 body{
     margin: 0;
@@ -23,13 +27,14 @@ body{
     padding-bottom: 0rem;
 }
 .header{
-    font-family:Baloo;
+    font-family:'Baloo 2', cursive;
     position: fixed;
     top: 0px;
     left: 0px;
     width: 100%;
-    background-color: rgb(67, 137, 162, 0.6);
+    background-color: #192d7ee8;
     box-shadow:0 4px 10px #031C32;
+    
 }
 .Mainmenu{
     width: 60%;
@@ -39,7 +44,7 @@ body{
    
 }
 .menu__link{
-    color:rgb(6, 0, 66);
+    color:white;
    font-weight: 400;
    font-size: 25px;
    text-decoration: none;
@@ -67,7 +72,7 @@ body{
    transition: 0.5s;
 }
 .menu__link__button:hover{
-    color:rgb(178, 122, 245);
+    color: white;
    font-weight: 600;
    font-size: 4
    0px;
@@ -80,7 +85,7 @@ body{
 }
 .Inicio{
     font-family:Baloo;
-    padding-top: 7.5rem;
+    padding-top: 6.5rem;
     padding-left: 2rem;
     padding-right: 2rem;
     display: flex;
@@ -276,6 +281,10 @@ body{
     font-size: 35px;
     font-weight: 10;
 }
+.Beneficios__body__button{
+    display: flex;
+    justify-content: center;
+}
 .Beneficios__body__button1{
     padding: 0.8rem;
     padding-left: 3.5rem;
@@ -287,7 +296,6 @@ body{
     font-family: 'Baloo';
     font-size: 20px;
     margin-top: 1rem;
-    margin-left: 16rem;
     transition: 0.3s all ease;
 }
 .Beneficios__body__button1:hover{
@@ -297,8 +305,9 @@ body{
     transition: 0.3s all ease;
 }
 .Planes{
- margin-top: 2rem;
+ margin-top: 4rem;
  margin-bottom: 2rem;
+
 }
 .Planes__header{
     font-family: Baloo;
@@ -318,6 +327,7 @@ body{
     display: flex;
     margin: 1rem;
     align-items: center;
+    justify-content: center;
 }
 .Planes__boxes__silver, .Planes__boxes__golden, .Planes__boxes__platinium{
     border-radius: 2rem;
@@ -379,6 +389,7 @@ body{
     font-family: 'Inter', sans-serif;
     list-style-image: url(https://i.postimg.cc/5NGMxBDL/tinywow-5369443-7543398.png) ;
     font-size: 18px;
+    line-height: 35px;
 }
 .Plan__titlep{
     text-align: center;
@@ -406,16 +417,15 @@ body{
     list-style-image: url(https://i.postimg.cc/5NGMxBDL/tinywow-5369443-7543398.png) ;
     font-family: 'Inter', sans-serif;
     font-size: 18px;
-
+    line-height: 35px;
 }
-.Planes__img1{
-    margin-left: 6.5rem; 
+.Planes__img{
+    display: flex;
+    justify-content: center;
 }
-.Planes__img2{
-    margin-left: 7.5rem;
-}
-.Planes__img3{
-    margin-left: 8rem;
+.Plan__buttton{
+    display: flex;
+    justify-content: center;
 }
 .Plan__button{
     padding: 0.6rem;
@@ -427,8 +437,6 @@ body{
     color: #5E39F0;
     font-family: 'Baloo';
     font-size: 14px;
-    margin-top: 1rem;
-    margin-left: 3.3rem;
     transition: 0.4s all ease;
 }
 .Plan__button:hover{
@@ -441,8 +449,102 @@ body{
     color: white;
     font-family: 'Baloo';
     font-size: 14px;
-    margin-top: 1rem;
-    margin-left: 3.3rem;
     transform: scaleX(-10px);
     transition: 0.4s all ease;
+}
+.Testimonios{
+    padding: 2rem;
+    transition: 0.5s;
+}
+.Testimonios__text{
+    text-align: right;
+}
+.Testimonios__text__h2{
+    color: #22CBBF;
+    font-size: 35px;
+    font-family: 'Baloo 2', cursive;
+    margin-bottom: 0rem;
+}
+.Testimonios__text__h1{
+    color: white;
+    font-weight: 400;
+    font-size: 50px;
+    font-family: 'Baloo';
+    margin-top: 0rem;
+}
+.Testimonio__body {
+    display: flex;
+}
+.Testimonio__body__card1, .Testimonio__body__card2{
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 2rem;
+    background-color: #081548;
+}
+.Testimonio__body__card1__header, .Testimonio__body__card2__header{
+    display: flex;
+}
+.Testimonio__body__card1__header_t, h3{
+    font-weight: 100;
+}
+.Testimonio__body__card2__header_t, .Testimonio__body__card1__header_t{
+    font-family: 'Inter', sans-serif;
+    color: white;
+    margin-left: 1rem;
+    text-align: right;
+}
+.Testimonio__body__card2__header_t,h3{
+    font-weight: 100;
+}
+.Testimonio__body__cardimg{
+    border-radius: 5rem;
+}
+.Testimonio__body__card1__p ,.Testimonio__body__card2__p{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: justify;
+}
+.Testimonios__buttons{
+    display: flex;
+    justify-content: center;
+}
+.Testimonio__body__card1__button, .Testimonio__body__card2__button{
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 3rem;
+    font-family: 'Baloo';
+    transition: 0.3s;
+}
+.Testimonio__body__card1__button{
+    color: #22CBBF;
+    border-color: #22CBBF;
+}
+.Testimonio__body__card1__button:hover{
+    color: white;
+    background-color: #22CBBF;
+    border-color: #22CBBF;
+    transition: 0.3s;
+}
+.Testimonio__body__card2__button{
+    color: #F87B08;
+    border-color: #F87B08;
+}
+.Testimonio__body__card2__button:hover{
+    color: white;
+    background-color: #F87B08;
+    border-color: #F87B08;
+}
+.Testimonio__flecha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

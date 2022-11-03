@@ -13,7 +13,7 @@
     <nav class="nav">
       <div class="container elements">
         <a href="#">
-          <img src="./imgs/StreamGoLogo.png" alt="LogoStreamGo" width="240" height="100" class="nav__logo" />
+          <img src="./imgs/StreamGoLogo.png" alt="LogoStreamGo" width="200" height="80" class="nav__logo" />
         </a>  
         <div class="Mainmenu">
           <h2>
@@ -36,7 +36,7 @@
     </nav>
   </header>
   <main>
-    <article class="Inicio">
+    <article class="Inicio" id="inicio">
       <div class="Incio__text">
         <h2 class="Incio__text__subtitle">¡Bienvenido a StreamGo!</h2>
         <h1 class="Inicio__text__title"> Todos tus servicios de Streaming a un click de distancia</h1>
@@ -51,7 +51,7 @@
       </div>
     </article>
 
-    <article class="Frase">
+    <article class="Frase" id="frase">
       <div>
         <h3 class="Frase__text">“Porque en StreamGo nos importa tu tiempo, dinero y variedad”</h3>
       </div>
@@ -66,7 +66,7 @@
       </div>
     </article>
 
-    <article class="Beneficios">
+    <article class="Beneficios" id="beneficios">
       <div class="Beneficios__header">
         <h2 class="Beneficios__header__h2"> Nuestros beneficios</h2>
         <h1 class="Beneficios__header__h1">¿Por que elegir nuestra app?</h1>
@@ -101,14 +101,16 @@
       </div>
     </article>
 
-    <article class="Planes">
+    <article class="Planes" id="planes">
       <div class="Planes__header">
         <p class="Planes__header__p">¿Estás listo para hacer la vida más fácil?</p>
         <h1 class="Planes__header__h1">Encuentra la suscripción ideal para ti</h1>
       </div>
       <div class="Planes__boxes">
         <div class="Planes__boxes__silver">
-          <img class="Planes__img1" src="./imgs/Imagen1.png" alt="Imagen1" width="100">
+          <div class="Planes__img">
+            <img class="Planes__img1" src="./imgs/Imagen1.png" alt="Imagen1" width="100">
+          </div>
           <h2 class="Plan__titlep">Silver Plan</h2>
           <h1 class="Plan__pricep"> $19.47 </h1>
           <h5 class="Plan__pormesp">por mes</h5>
@@ -118,10 +120,14 @@
             <li>Resolución: 480p</li>
             <li>Cantidad de dispositivos en simultáneo: 2</li>
           </ul>
-          <button class="Plan__button">Obtener un mes gratis</button>
+          <div class="Plan__buttton">
+            <button class="Plan__button">Obtener un mes gratis</button>
+          </div>
         </div>
         <div class="Planes__boxes__golden">
-          <img class="Planes__img2" src="./imgs/Imagen2.png" alt="Imagen2" width="80">
+          <div class="Planes__img">
+            <img class="Planes__img2" src="./imgs/Imagen2.png" alt="Imagen2" width="80">
+          </div>
           <h2 class="Plan__title">Golden Plan</h2>
           <h1 class="Plan__price"> $31.15 </h1>
           <h5 class="Plan__pormes">por mes</h5>
@@ -131,10 +137,14 @@
             <li>Resolución: 1080p</li>
             <li>Cantidad de dispositivos en simultáneo: 4</li>
           </ul>
-          <button class="Plan__button">Obtener un mes gratis</button>
+          <div class="Plan__buttton">
+            <button class="Plan__button">Obtener un mes gratis</button>
+          </div>
         </div>
         <div class="Planes__boxes__platinium">
-          <img class="Planes__img3" src="./imgs/Imagen3.png" alt="Imagen3" width="60">
+          <div class="Planes__img">
+            <img class="Planes__img3" src="./imgs/Imagen3.png" alt="Imagen3" width="60">
+          </div>
           <h2 class="Plan__title">Platinium Plan</h2>
           <h1 class="Plan__price"> $44.13 </h1>
           <h5 class="Plan__pormes">por mes</h5>
@@ -144,16 +154,56 @@
             <li>Resolución: 4K + HDR</li>
             <li>Cantidad de dispositivos en simultáneo: 5</li>
           </ul>
-          <button class="Plan__button">Obtener un mes gratis</button>
+          <div class="Plan__buttton">
+            <button class="Plan__button">Obtener un mes gratis</button>
+          </div>
         </div>
       </div>
     </article>
 
-    <article class="">
-      <div>
-
+    <article class="Testimonios">
+      <div class="Testimonios__text">
+        <h2 class="Testimonios__text__h2">Testimonios</h2>
+        <h1 class="Testimonios__text__h1">Nuestros expertos nos recomiendan</h1>
+      </div>
+      <div class="Testimonio__body">
+        <div class="Testimonio__flecha">
+          <img src="./imgs/Flecha_izquierda.png" alt="img1" width="50", height="50">
+        </div> 
+        <div class="Testimonio__body__card1">
+          <div class="Testimonio__body__card1__header">
+            <img src="./imgs/FotoPerfil1.jpg" alt="FotoPerfil1" width="150" class="Testimonio__body__cardimg">
+            <div class="Testimonio__body__card1__header_t">
+              <h2>Tristan Derteano</h2>
+              <h3>Ingeniero de Ciencas de la Computación y CEO de ICACIT</h3>
+            </div>
+          </div>
+          <p class="Testimonio__body__card1__p">“StreamGo es una app excelente para aficionados como yo que les gusta la diversidad de Streaming,
+             es eficiente y brinda calidad de contenido”.</p>
+             <div class="Testimonios__buttons">
+              <button class="Testimonio__body__card1__button">Unirme a StreamGo</button>
+             </div>
+        </div>
+        <div class="Testimonio__body__card2">
+          <div class="Testimonio__body__card2__header">
+            <img src="./imgs/FotoPerfil2.jpg" alt="FotoPerfil2" width="150" class="Testimonio__body__cardimg">
+            <div class="Testimonio__body__card2__header_t">
+              <h2>Jeff Díaz Castro</h2>
+              <h3>Científico y Analista de Datos de Samsumg LDS - Perú</h3>
+            </div>
+          </div>
+          <p class="Testimonio__body__card2__p">“Recomiendo StreamGo porque es una multiplataforma que facilita el entretenimiento ofreciendo
+             recomendaciones más acercanas a nuestros gustos.”</p>
+             <div class="Testimonios__buttons">
+              <button class="Testimonio__body__card2__button">Unirme a StreamGo</button>
+             </div>
+        </div>
+        <div class="Testimonio__flecha">
+          <img src="./imgs/Flecha_derecha.png" alt="img1" width="50", height="50">
+        </div> 
       </div>
     </article>
+
   </main>
 </body>
 </html>
