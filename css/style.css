@@ -583,25 +583,25 @@ body{
     display: flex;
     justify-content: center;
 }
-.Contactanos__body__twoinputt, .Contactanos__body__twoinputt1{
+.Contactanos__body__twoinput__name, .Contactanos__body__twoinput__lastname, .Contactanos__body__twoinput__number, .Contactanos__body__twoinput__country{
     width: 250px;
     height: 20px;
     margin-bottom: 1rem;
     border-radius: 0.2rem;
 }
-.Contactanos__body__twoinputt{
+.Contactanos__body__twoinput__name, .Contactanos__body__twoinput__number{
     margin-right: 0.5rem;
 }
-.Contactanos__body__twoinputt1{
+.Contactanos__body__twoinput__lastname, .Contactanos__body__twoinput__country{
     margin-left: 0.5rem;
 }
-.Contactanos__body__oneinputt, .Contactanos__body__oneinputt1{
+.Contactanos__body__oneinput__email, .Contactanos__body__oneinput__text{
     width: 522px;
     height: 20px;
     margin-bottom: 1rem;
     border-radius: 0.2rem;
 }
-.Contactanos__body__oneinputt1{
+.Contactanos__body__oneinput__text{
     height: 50px;
 }
 .Contactanos__body__submit{
@@ -625,7 +625,27 @@ body{
     font-family: 'Baloo';
     transition: 0.3s all ease;
 }
-
+.Contactanos__body__twoinput__name::placeholder, .Contactanos__body__twoinput__lastname::placeholder, .Contactanos__body__oneinput__email::placeholder, .Contactanos__body__twoinput__number::placeholder, .Contactanos__body__twoinput__country::placeholder, .Contactanos__body__oneinput__text::placeholder{
+    background-size: 12px, 12px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.Contactanos__body__twoinput__name::placeholder, .Contactanos__body__twoinput__lastname::placeholder{
+    background-image: url(https://i.postimg.cc/nV5yLzKn/icon-profile.png);
+}
+.Contactanos__body__oneinput__email::placeholder{
+    background-image: url(https://i.postimg.cc/nzS6BV6Y/icon-email.png);
+}
+.Contactanos__body__twoinput__number::placeholder{
+    background-image: url(https://i.postimg.cc/90vKg8XD/icon-tef.png);
+}
+.Contactanos__body__twoinput__country::placeholder{
+    background-size: 15px, 15px;
+    background-image: url(https://i.postimg.cc/zvL4jZNm/icon-map.png);
+}
+.Contactanos__body__oneinput__text::placeholder{
+    background-image: url(https://i.postimg.cc/sDhtGrK7/icon-smileface.png);
+}
 
 
 .Footer{
@@ -644,8 +664,25 @@ body{
     justify-content: space-between;
     width: 70%;
 }
+.Footer__container2, a{
+    text-decoration: none;
+    color: #678398;
+}
+.Footer__container3, a{
+    text-decoration: none;
+    color: #678398;
+}
+.Footer__container4, a{
+    text-decoration: none;
+    color: #678398;
+}
 .Footer__rights{
     display: flex;
     justify-content: center;
     font-family: 'Inter', sans-serif;
+}
+.Footer__container1__logos{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
 }
