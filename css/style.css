@@ -46,9 +46,9 @@ body{
 .menu__link{
     color:white;
    font-weight: 400;
-   font-size: 25px;
+   font-size: 23px;
    text-decoration: none;
-   transition: color 0,50s;
+   transition: 0.5s all ease;
   
 }
 .menu__link:hover{
@@ -56,7 +56,7 @@ body{
    font-weight: 400;
    font-size: 25px;
    text-decoration: none;
-   transition: color 0,50s;
+   transition: 0.5s all ease;
    
 }
 .menu__link__button{
@@ -91,6 +91,7 @@ body{
     display: flex;
     justify-content: space-between;
     color: white;
+    margin-bottom: 4rem;
 }
 .Incio__text{
     padding-right: 2rem;
@@ -458,11 +459,12 @@ body{
 }
 .Testimonios__text{
     text-align: right;
+    margin-right: 3rem;
 }
 .Testimonios__text__h2{
     color: #22CBBF;
     font-size: 35px;
-    font-family: 'Baloo 2', cursive;
+    font-family: 'Baloo 2', sans-serif;
     margin-bottom: 0rem;
 }
 .Testimonios__text__h1{
@@ -514,6 +516,7 @@ body{
 .Testimonios__buttons{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .Testimonio__body__card1__button, .Testimonio__body__card2__button{
     padding-top: 0.7rem;
@@ -547,4 +550,102 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.Contactanos{
+    display: flex;
+    margin-bottom: 2rem;
+}
+.Contactanos__header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 7rem;
+    margin-right: 1rem;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: 600;
+    font-size: 24px;
+    color: #F87B08;
+}
+.Contactanos__body{
+    padding: 1rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: 1rem;
+    margin-right: 7rem;
+    background-color: #5E39F0;
+    border-radius: 1rem;
+}
+.Contactanos__body__twoinput{
+    display: flex;
+}
+.Contactanos__body__oneinput{
+    display: flex;
+    justify-content: center;
+}
+.Contactanos__body__twoinputt, .Contactanos__body__twoinputt1{
+    width: 250px;
+    height: 20px;
+    margin-bottom: 1rem;
+    border-radius: 0.2rem;
+}
+.Contactanos__body__twoinputt{
+    margin-right: 0.5rem;
+}
+.Contactanos__body__twoinputt1{
+    margin-left: 0.5rem;
+}
+.Contactanos__body__oneinputt, .Contactanos__body__oneinputt1{
+    width: 522px;
+    height: 20px;
+    margin-bottom: 1rem;
+    border-radius: 0.2rem;
+}
+.Contactanos__body__oneinputt1{
+    height: 50px;
+}
+.Contactanos__body__submit{
+    display: flex;
+    justify-content: center;
+}
+.Contactanos__body__submitt{
+    padding: 0.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-radius: 1rem;
+    border-color: #5E39F0;
+    color: #5E39F0;
+    font-family: 'Baloo';
+    transition: 0.3s all ease;
+}
+.Contactanos__body__submitt:hover{
+    color: white;
+    background-color: #4b2fbe;
+    border-color: #4b2fbe;
+    font-family: 'Baloo';
+    transition: 0.3s all ease;
+}
+
+
+
+.Footer{
+    margin: 0rem;
+    background-color: #091138;
+    padding-top: 2rem;
+    color: #678398;
+    font-family: 'Inter', sans-serif;
+}
+.Footer__center{
+    display: flex;
+    justify-content: center;
+}
+.Footer__containers{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.Footer__rights{
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
 }
