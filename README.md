@@ -9,7 +9,7 @@ Repository for the LandingPage of the StreamGo application, this web page is mad
 - Andreé Carrillo: [@AndreeCarrillo](https://github.com/AndreeCarrillo)
 - Kurt Reyes: [@RagerMon](https://github.com/RagerMon)
 - Xiomara Coronado: [@xiomaracoronado](https://github.com/xiomaracoronado)
-- Luis Ramírez: [@Pandevidaxd](https://github.com/Pandevidaxd)
+- Luis Ramirez: [@Pandevidaxd](https://github.com/Pandevidaxd)
 
 ## URL
 
