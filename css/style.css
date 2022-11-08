@@ -893,8 +893,8 @@ nav ul li{
         font-size: 21px;
     }
     .Beneficios__body__text__p1, .Beneficios__body__text__p2, .Beneficios__body__text__p3{
-        padding-bottom: 0rem;
-        font-size: 18px;
+        padding-bottom: 0.1rem;
+        font-size: 19px;
     }
     .Beneficios__body__text__div1{
         background-color: #22CBBF;
