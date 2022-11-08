@@ -9,20 +9,16 @@ article[id]{
 body{
     margin: 0;
     background: linear-gradient(135deg, #0D1D5E, #0E1B53 );
-    /* background: linear-gradient(135deg, #00b7d4, #505488, #2f3f80, #161569, #5a4894, #a950a1, #ff7cae); */
     background-size: cover;
     height: 100vh;
 }
 nav{
     padding-top: 0.5rem;
-    padding-bottom: 0rem;
 }
 
 .header{
     font-family:'Baloo 2', cursive;
     position: fixed;
-    top: 0px;
-    left: 0px;
     width: 100%;
     background-color: #192d7e;
     box-shadow:0 4px 10px #031C32;
