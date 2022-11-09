@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Inter:wght@100;200;300;400;500;600&display=swap');
+*{
+    box-sizing: border-box;
+}
 html{
     box-sizing: border-box;
     height: 100%;
+    margin: 0;
+    padding: 0;
     scroll-behavior: smooth;
+    position:absolute;
 }
 article[id]{
     scroll-margin-top: 100px;
@@ -17,7 +24,10 @@ nav{
     padding-top: 0.5rem;
     padding-bottom: 0rem;
 }
-
+main{
+    box-sizing: border-box;
+    
+}
 .header{
     font-family:'Baloo 2', cursive;
     position: fixed;
@@ -26,6 +36,7 @@ nav{
     width: 100%;
     background-color: #192d7e;
     box-shadow:0 4px 10px #031C32;
+    z-index: 11;
     
 }
 nav img{
@@ -96,7 +107,7 @@ nav ul li{
    transition: 0.5s;
 }
 .Inicio{
-    font-family:Baloo;
+    font-family:'Baloo 2', cursive;
     padding-top: 6.5rem;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -115,12 +126,13 @@ nav ul li{
 }
 .Inicio__text__title{
     margin: 0;
-    font-weight: 700;
+    font-family: 'Baloo 2';
+    font-weight: 800;
     font-size: 50px;
 }
 .Inicio__text__p{
     font-family: 'Inter', sans-serif;
-    font-weight: 50;
+    font-weight: 300;
     font-size: 20px;
 }
 .Inicio__img{
@@ -192,18 +204,19 @@ nav ul li{
     margin-top: 3rem;
 }
 .Beneficios__header{
-    font-family: 'Baloo';
+    font-family: 'Baloo 2', cursive;
    color: white;
    padding-left: 2rem;
 }
 .Beneficios__header__h2{
-    font-weight: 40;
+    font-weight: 700;
     font-size: 30px;
     color: #F87B08;
 }
 .Beneficios__header__h1{
     margin-top: 0rem;
     font-size: 40px;
+    font-weight: 800 bold;
 }
 .Beneficios__body{
     display: flex;
@@ -223,15 +236,15 @@ nav ul li{
 
 }
 .Beneficios__body__text__h2, .Beneficios__body__text__h3{
-    font-family: 'Baloo';
+    font-family: 'Baloo 2', cursive;
     font-size: 30px;
-    font-weight: 40;
+    font-weight: 800;
     
 }
 .Beneficios__body__text__h1{
-    font-family: 'Baloo';
+    font-family: 'Baloo 2', cursive;
     font-size: 30px;
-    font-weight: 40;
+    font-weight: 800;
     margin-top: 0rem;
     padding: 0.8rem;
     border-radius: 0.5rem;
@@ -336,18 +349,19 @@ nav ul li{
 
 }
 .Planes__header{
-    font-family: Baloo;
+    font-family: 'Baloo 2', cursive;
     color: white;
     text-align: center;
 }
 .Planes__header__p{
    font-size: 25px;
+   font-weight: 800;
    margin-bottom: 0px;
 }
 .Planes__header__h1{
     margin-top: 0.5rem;
     font-size: 40px;
-    font-weight: 100;
+    font-weight: 800;
 }
 .Planes__boxes{
     display: flex;
@@ -387,8 +401,8 @@ nav ul li{
 }
 .Plan__title{
     text-align: center;
-    font-family: Baloo;
-    font-weight: 100;
+    font-family: 'Baloo 2', cursive;
+    font-weight: 800;
     color: #EA6656;
     margin-bottom: 0rem;
 
@@ -396,9 +410,9 @@ nav ul li{
 .Plan__price{
     margin-top: 0rem;
     text-align: center;
-    font-family: Baloo;
+    font-family: 'Baloo 2', cursive;
     font-size: 50px;
-    font-weight: 100;
+    font-weight: 700;
     margin-bottom: 0rem;
     color: #F87B08;
 
@@ -419,17 +433,17 @@ nav ul li{
 }
 .Plan__titlep{
     text-align: center;
-    font-family: Baloo;
-    font-weight: 100;
+    font-family: 'Baloo 2', cursive;
+    font-weight: 800;
     color: #EA6656;
     margin-bottom: 0rem;
 }
 .Plan__pricep{
     margin-top: 0rem;
     text-align: center;
-    font-family: Baloo;
+    font-family: 'Baloo 2', cursive;
     font-size: 50px;
-    font-weight: 100;
+    font-weight: 700;
     margin-bottom: 0rem;
     color: #F87B08;
 }
@@ -494,9 +508,9 @@ nav ul li{
 }
 .Testimonios__text__h1{
     color: white;
-    font-weight: 400;
+    font-weight: 800;
     font-size: 50px;
-    font-family: 'Baloo';
+    font-family: 'Baloo 2', cursive;
     margin-top: 0rem;
 }
 .Testimonio__body {
@@ -578,6 +592,8 @@ nav ul li{
 }
 .Contactanos{
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 2rem;
 }
 .Contactanos__header{
@@ -723,7 +739,6 @@ nav ul li{
 .ObtenerApp__buttons{
     display: flex;
     justify-content: space-between;
-    width: 30%;
 }
 .ObtenerApp__button1, .ObtenerApp__button2{
     padding-left: 2.5rem;
@@ -735,6 +750,7 @@ nav ul li{
     transition: 0.3s all ease;
     color: white;
     font-size: 15px;
+    margin:0 15px;
 }
 .ObtenerApp__button1{
     background-color: #22CBBF; 
@@ -762,6 +778,8 @@ nav ul li{
     padding-top: 2rem;
     color: #678398;
     font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    
 
 }
 .Footer__center{
@@ -771,34 +789,65 @@ nav ul li{
 .Footer__containers{
     display: flex;
     justify-content: space-between;
-    width: 70%;
+    
+    
+}
+.Footer__container1, .Footer__container2, .Footer__container3, .Footer__container4{
+    margin:0px 10px
 }
 .Footer__container2, a{
     text-decoration: none;
     color: #678398;
+    font-weight: 400;
 }
 .Footer__container3, a{
     text-decoration: none;
     color: #678398;
+    font-weight: 400;
+    
 }
 .Footer__container4, a{
     text-decoration: none;
     color: #678398;
+    font-weight: 400;
 }
 .Footer__rights{
     display: flex;
     justify-content: center;
     font-family: 'Inter', sans-serif;
+    font-weight: 400;
 }
 .Footer__container1__logos{
     display: flex;
     justify-content: space-between;
+    font-weight: 400;
     width: 80%;
 }
 
-@media screen and (max-width:957px){
+@media screen and (max-width:960px){
+    .header{
+        z-index: 11;
+    }
     .menu__link, .menu__link__button{
-        font-size: 18px;
+        font-size: 19.8px;
+    }
+    .Inicio__button1, .Inicio__button2{
+        padding: 0.6rem;
+        font-size: 15px;
+    }
+    
+    .Incio__text{
+        padding-right: 1.5rem;
+    }
+    .Incio__text__subtitle{
+            font-weight: 40;
+            font-size: 20px;
+        
+    }
+    .Inicio__text__title{
+        margin: 0;
+        font-weight: 600;
+        font-size: 40px;
     }
     .Beneficios__body__img{
         display: none;
@@ -806,10 +855,46 @@ nav ul li{
     .Plan__listp, .Plan__list{
         line-height: 25px;
     }
-    .Planes__boxes{
-        margin: 0.8rem;
-        margin-left: 0.2rem;
-        margin-right: 0.2rem;
+    .Planes__boxes__golden, .Planes__boxes__platinium, .Planes__boxes__silver{
+       margin-left: 1rem;
+       margin-right: 1rem;
+    }
+    .Plan__list, .Plan__listp{
+        font-size: 15px;
+    }
+    .Contactanos{
+        padding-left: 0rem;
+    }
+    .Contactanos__header{
+        margin-left: 4rem;
+        padding-left: 0rem;
+        font-size: 20px;
+    }
+
+    .Contactanos__body{
+        padding: 1rem;
+        padding-bottom: 0.3rem;
+        margin-right: 3rem;
+    }
+    .ObtenerApp__h1{
+        font-size: 40px;
+        margin: 0px 0.4rem;
+    }
+
+    .ObtenerApp__button1, .ObtenerApp__button2{
+        padding: 1rem;
+    
+    }
+    .Testimonios__text__h1{
+        font-family: 'Baloo 2', cursive;
+        font-size: 40px;
+        font-weight: 800;
+    }
+    .Testimonio__body{
+        display: block;
+    }
+    .Testimonio__flecha{
+        display: none;
     }
 }
 @media screen and (max-width:860px) {
@@ -827,8 +912,8 @@ nav ul li{
         width: 100%;
         height: 100vh;
         background: #031C32;
-        top: 86px;
-        right: -108%;
+        top: 90px;
+        right: -190%;
         text-align: center;
         transition: all 0.5s;
     }
@@ -840,14 +925,71 @@ nav ul li{
     #check:checked ~ ul{
         right: -18px ;
     }
+    .Inicio__img{
+        display: none;
+    }
+    .overlay{
+    position: absolute;
+    top: -15px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgb(13, 29, 94, 0.7);
+    }
+    .Inicio{
+        background-image:url(https://i.postimg.cc/6qHc7RSj/My-project.png);
+        background-position: center right;
+        background-position-y:90px;
+        background-size: 300px;
+        background-repeat: no-repeat;
+    }
+    .header{
+        z-index: 11;
+    }
+    .Incio__text{
+        z-index: 10;
+    }
+    .Frase__text{
+        font-size: 34px;
+    }
+    .Contactanos__header{
+        margin-left: 2rem;
+        padding-left: 0rem;
+        font-size: 20px;
+    }
+    .Beneficios__body__text__h1, .Beneficios__body__text__h2, .Beneficios__body__text__h3{
+        font-family: 'Baloo 2', cursive;
+        font-weight: 600;
+    }
+    .Planes__boxes{
+        margin-left: 1rem;
+    }
+    .Planes__boxes__silver{
+        margin: 0, 12px;
+    }
+    
+}
+@media screen and (max-width:650px) {
+    nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #031C32;
+        top: 86px;
+        right: -190%;
+        text-align: center;
+        transition: all 0.5s;
+    }
     
 }
 
-
 @media screen and (max-width:480px) {
+    .overlay{
+        display: none;
+    }
     .Inicio{
         margin: 0rem;
-        width:1080px;
+        
         background: linear-gradient(90deg, #0D1D5E, #0E1B53 );
     }
     .Inicio__button1, .Inicio__button2{
@@ -855,15 +997,12 @@ nav ul li{
         padding-right: 3rem;
         border-radius: 1rem;
     }
-    .Frase{
-        width:1140px;
-    }
     .Inicio__img{
         padding-right: 0rem;
         margin-right: 0rem;
     }
     .Beneficios{
-        width: 1140px;
+        
         background: linear-gradient(90deg, #0D1D5E, #0E1B53 );
     }
     .Beneficios__body__img{
@@ -917,17 +1056,11 @@ nav ul li{
         padding-left: 9rem;
         padding-right: 9rem;
     }
-    .Testimonios{
-        width: 1080px;
-    }
-    .Contactanos{
-        width: 1145px;
-    }
     .Contactanos__body{
         margin-right: 3rem;
     }
     .Planes{
-        width: 1140px;
+        
         background: linear-gradient(90deg, #0D1D5E, #0E1B53 );
     }
     .Planes__boxes{
@@ -946,8 +1079,5 @@ nav ul li{
     }
     .ObtenerApp__buttons{
         width: 40%;
-    }
-    .Footer{
-        width: 1145px;
     }
 }
