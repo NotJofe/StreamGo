@@ -1,4 +1,4 @@
-# StreamGo
+## StreamGo
 
 Repository for the LandingPage of the StreamGo application, this web page is made with the CSS and HTML languages.
 
@@ -13,4 +13,4 @@ Repository for the LandingPage of the StreamGo application, this web page is mad
 
 ## URL
 
-- StreamGo Landing Page: (notjofe.github.io/StreamGo/)
+- Access link to the StreamGo Landing Page: (notjofe.github.io/StreamGo/)
