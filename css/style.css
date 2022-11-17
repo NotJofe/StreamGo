@@ -111,6 +111,7 @@ nav ul li{
     justify-content: space-between;
     color: white;
     margin-bottom: 4rem;
+    
 }
 .Incio__text{
     padding-right: 2rem;
@@ -931,7 +932,7 @@ nav ul li{
     }
     .overlay{
     position: absolute;
-    top: -75px;
+    top: -45px;
     left: 0;
     width: 100%;
     height: 100%;
@@ -1016,7 +1017,36 @@ nav ul li{
         text-align: center;
         transition: all 0.8s;
     }
-    
+    .Contactanos__header{
+        margin: 0px 24px;
+    }
+    .Contactanos__body__twoinput{
+        flex-direction: column;
+        align-items: center;
+    }
+    .Contactanos__body__twoinput__name, .Contactanos__body__twoinput__number{
+        margin: 0px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        width: 300px;
+    }
+    .Contactanos__body__twoinput__lastname, .Contactanos__body__twoinput__country{
+        margin: 0px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        width: 300px;
+    }
+    .Contactanos__body__oneinput{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 10px;
+    }
+    .Contactanos__body__oneinput__email, .Contactanos__body__oneinput__text{
+        width: 300px;
+    }
+    .Footer__container1{
+        display: none;
+    }
 }
 @media screen and (max-width:590px){
     .Planes__boxes{
@@ -1025,8 +1055,18 @@ nav ul li{
     .Planes__boxes__silver, .Planes__boxes__golden{
         margin-bottom: 30px;
     }
-    .Contactanos__body__twoinput{
-        
+}
+@media screen and (max-width:540px){
+    .Inicio__buttons{
+        flex-direction: column;
+    }
+    .Inicio__button1{
+        margin-bottom: 10px;
+        margin-right: 0px;
+    }
+    .Inicio__button2{
+        margin-left: 0px;
+        padding: 15px 45px;
     }
 }
 @media screen and (max-width:480px) {
@@ -1045,7 +1085,7 @@ nav ul li{
     }
     .overlay{
         position: absolute;
-        top: -130px;
+        top: -40px;
         left: 0;
         width: 100%;
         height: 100%;
@@ -1067,6 +1107,7 @@ nav ul li{
     }
     .Beneficios__body__text{
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
         margin-right: 2rem;
         padding-right: 0rem;
@@ -1074,6 +1115,7 @@ nav ul li{
     .Beneficios__body__text__div1, .Beneficios__body__text__div2, .Beneficios__body__text__div3{
         margin-left: 1rem;
         margin-right: 1rem;
+        margin-bottom: 1rem;
         padding: 2rem;
         border-radius: 1rem;
         background-color: black;
@@ -1103,8 +1145,8 @@ nav ul li{
         background-color: #5E39F0;
     }
     .Beneficios__body__button1{
-        padding-left: 9rem;
-        padding-right: 9rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
     }
     .Contactanos__body{
         margin-right: 3rem;
@@ -1124,10 +1166,10 @@ nav ul li{
     .Plan__list{
         line-height: 25px;
     }
-    .ObtenerApp{
-        width: 1145px;
+    .Testimonio__body__card2__header img, .Testimonio__body__card1__header img{
+        display: none;
     }
-    .ObtenerApp__buttons{
-        width: 40%;
+    .Testimonio__body__card2__header_t, .Testimonio__body__card1__header_t{
+        text-align: center;
     }
 }
