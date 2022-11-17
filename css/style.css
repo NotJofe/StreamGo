@@ -67,14 +67,14 @@ nav ul li{
 .menu__link{
     color:white;
    font-weight: 400;
-   font-size: 23px;
+   font-size: 21px;
    transition: 0.5s all ease;
   
 }
 .menu__link:hover{
     color:rgb(178, 122, 245);
    font-weight: 400;
-   font-size: 25px;
+   font-size: 22px;
    transition: 0.5s all ease;
    
 }
@@ -524,6 +524,7 @@ nav ul li{
 }
 .Testimonio__body__card1__header, .Testimonio__body__card2__header{
     display: flex;
+    justify-content: space-between;
 }
 .Testimonio__body__card1__header_t, h3{
     font-weight: 100;
@@ -815,9 +816,9 @@ nav ul li{
 }
 .Footer__container1__logos{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     font-weight: 400;
-    width: 80%;
+
 }
 
 @media screen and (max-width:960px){
@@ -993,7 +994,13 @@ nav ul li{
         justify-content: center;
     }
     .Footer__container1{
-        margin-left: 0px;
+        margin-left: 10px;
+    }
+    .Footer__container1 h3{
+        font-size: 17px;
+    }
+    .Footer__container1__logos{
+        margin-right: 10px;
     }
     .Footer__container2, a{
         font-size: 16px;
@@ -1191,7 +1198,14 @@ nav ul li{
     .Contactanos__body{
         margin: 10px 15px;
     }
+    .Contactanos__body__oneinput{
+        margin: 0px;
+    }
     .Contactanos__body__twoinput__name, .Contactanos__body__twoinput__number,  .Contactanos__body__twoinput__lastname, .Contactanos__body__twoinput__country,  .Contactanos__body__oneinput__email, .Contactanos__body__oneinput__text{
-     width: 350px;   
+     width: 320px;
+     margin-left: 0px;   
+    }
+    .Footer__container2 h3, .Footer__container4 h3{
+        font-size: 15px;
     }
 }
