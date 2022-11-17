@@ -820,7 +820,6 @@ nav ul li{
     display: flex;
     justify-content: space-evenly;
     font-weight: 400;
-
 }
 
 @media screen and (max-width:960px){
@@ -1095,15 +1094,24 @@ nav ul li{
     }
     .overlay{
         position: absolute;
-        top: -40px;
+        top: -190px;
         left: 0;
         width: 100%;
         height: 100%;
         background:rgb(13, 29, 94, 0.7);
-        }
+    }
+    .Frase__text{
+        margin: 36px 50px;
+    }
     .Beneficios{
         
         background: linear-gradient(90deg, #0D1D5E, #0E1B53 );
+    }
+    .Beneficios__header{
+        padding: 0px;
+    }
+    .Beneficios__header__h2, .Beneficios__header__h1{
+        text-align: center;
     }
     .Beneficios__body__img{
         display: none;
@@ -1165,6 +1173,10 @@ nav ul li{
         
         background: linear-gradient(90deg, #0D1D5E, #0E1B53 );
     }
+    .Planes__header__p{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
     .Planes__boxes{
         margin: 0.5rem;
         margin-left: 0rem;
@@ -1195,6 +1207,9 @@ nav ul li{
         display: none;
     }
     .Testimonio__body__card2__header_t, .Testimonio__body__card1__header_t{
+        text-align: center;
+    }
+    .Contactanos__header{
         text-align: center;
     }
     .Contactanos__body{
