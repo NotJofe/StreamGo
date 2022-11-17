@@ -10,8 +10,8 @@ html{
     scroll-behavior: smooth;
     
 }
-article[id]{
-    scroll-margin-top: 150px;
+section[id]{
+    scroll-margin-top:140px;
 }
 body{
     margin: 0;
@@ -598,7 +598,7 @@ nav ul li{
     align-items: center;
     margin-left: 7rem;
     margin-right: 1rem;
-    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Baloo 2', cursive;
     font-weight: 600;
     font-size: 24px;
     color: #F87B08;
@@ -1024,17 +1024,18 @@ nav ul li{
         flex-direction: column;
         align-items: center;
     }
+    
     .Contactanos__body__twoinput__name, .Contactanos__body__twoinput__number{
         margin: 0px;
         margin-bottom: 10px;
         margin-left: 10px;
-        width: 300px;
+        width: 400px;
     }
     .Contactanos__body__twoinput__lastname, .Contactanos__body__twoinput__country{
         margin: 0px;
         margin-bottom: 10px;
         margin-left: 10px;
-        width: 300px;
+        width: 400px;
     }
     .Contactanos__body__oneinput{
         flex-direction: column;
@@ -1042,7 +1043,7 @@ nav ul li{
         margin-left: 10px;
     }
     .Contactanos__body__oneinput__email, .Contactanos__body__oneinput__text{
-        width: 300px;
+        width: 400px;
     }
     .Footer__container1{
         display: none;
@@ -1166,10 +1167,31 @@ nav ul li{
     .Plan__list{
         line-height: 25px;
     }
+    .Planes__header__h1{
+        margin:0px 20px;
+    }
+    .Testimonios__text__h1, .Testimonios__text__h2{
+        text-align: center;
+    }
+    .Testimonios__text{
+       margin-right: 0px;
+    }
+    .Testimonio__body__card1, .Testimonio__body__card2{
+        margin:1rem 0rem;
+    }
+    .Testimonio__body__card1__header_t, .Testimonio__body__card2__header_t {
+        margin-left: 0px;
+    }
     .Testimonio__body__card2__header img, .Testimonio__body__card1__header img{
         display: none;
     }
     .Testimonio__body__card2__header_t, .Testimonio__body__card1__header_t{
         text-align: center;
+    }
+    .Contactanos__body{
+        margin: 10px 15px;
+    }
+    .Contactanos__body__twoinput__name, .Contactanos__body__twoinput__number,  .Contactanos__body__twoinput__lastname, .Contactanos__body__twoinput__country,  .Contactanos__body__oneinput__email, .Contactanos__body__oneinput__text{
+     width: 350px;   
     }
 }
