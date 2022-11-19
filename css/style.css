@@ -148,7 +148,8 @@ nav ul li{
     border-radius: 0.4rem;
     background-color: #5E39F0;
     border-color: #5E39F0;
-    font-family: 'Baloo';
+    font-family: 'Baloo 2';
+    font-weight: 700;
     font-size: 20px;
     margin-right: 1rem;
     color: white;
@@ -162,7 +163,8 @@ nav ul li{
     background-color: white;
     border-color: #5E39F0;
     color: #5E39F0;
-    font-family: 'Baloo';
+    font-family: 'Baloo 2';
+    font-weight: 700;
     font-size: 20px;
     margin-left: 1rem;
     transition: 0.3s all ease;
@@ -180,13 +182,13 @@ nav ul li{
     padding-top: 0.1rem;
     padding-bottom: 1rem;
     text-align: center;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Baloo 2';
+    font-weight: 800;
     color: #22CBBF;
-    font-weight: 10;
     background-color: rgba(0, 0, 0, 0.2);
     
 }
-.Frase__text{
+.Frase__text{   
     font-size: 40px;
     font-weight: 600;
     margin-left: 6rem;
@@ -332,7 +334,8 @@ nav ul li{
     background-color: white;
     border-color: #5E39F0;
     color: #5E39F0;
-    font-family: 'Baloo';
+    font-family: 'Baloo 2';
+    font-weight: 800;
     font-size: 20px;
     margin-top: 1rem;
     transition: 0.3s all ease;
@@ -475,7 +478,8 @@ nav ul li{
     background-color: white;
     border-color: #5E39F0;
     color: #5E39F0;
-    font-family: 'Baloo';
+    font-family: 'Baloo 2';
+    font-weight: 800;
     font-size: 14px;
     transition: 0.4s all ease;
 }
@@ -487,7 +491,8 @@ nav ul li{
     background-color: #5E39F0;
     border-color: #5E39F0;
     color: white;
-    font-family: 'Baloo';
+    font-family: 'Baloo 2';
+    font-weight: 800;
     font-size: 14px;
     transform: scaleX(-10px);
     transition: 0.4s all ease;
@@ -564,7 +569,8 @@ nav ul li{
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     border-radius: 3rem;
-    font-family: 'Baloo';
+    font-family: 'Baloo 2';
+    font-weight: 700;
     transition: 0.3s;
 }
 .Testimonio__body__card1__button{
@@ -587,7 +593,8 @@ nav ul li{
     border-color: #F87B08;
 }
 .Testimonio__flecha{
-    display: flex;
+
+    display: none;
     justify-content: center;
     align-items: center;
 }
@@ -657,14 +664,14 @@ nav ul li{
     border-radius: 1rem;
     border-color: #5E39F0;
     color: #5E39F0;
-    font-family: 'Baloo';
+    font-family: 'Baloo 2';
+    font-weight: 800;
     transition: 0.3s all ease;
 }
 .Contactanos__body__submitt:hover{
     color: white;
     background-color: #4b2fbe;
     border-color: #4b2fbe;
-    font-family: 'Baloo';
     transition: 0.3s all ease;
 }
 .Contactanos__body__twoinput__name::placeholder, .Contactanos__body__twoinput__lastname::placeholder, .Contactanos__body__oneinput__email::placeholder, .Contactanos__body__twoinput__number::placeholder, .Contactanos__body__twoinput__country::placeholder, .Contactanos__body__oneinput__text::placeholder{
@@ -721,8 +728,8 @@ nav ul li{
     font-size: 30px;
 }
 .ObtenerApp__h1{
-    font-family: 'Baloo';
-    font-weight: 100;
+    font-family: 'Baloo 2';
+    font-weight: 800;
     font-size: 45px;
     margin-bottom: 0.1rem;
 }
@@ -743,13 +750,14 @@ nav ul li{
     display: flex;
     justify-content: space-between;
 }
-.ObtenerApp__button1, .ObtenerApp__button2{
+.ObtenerApp__button1, .ObtenerApp__button2, .ObtenerApp__button3{
     padding-left: 2.5rem;
     padding-right: 2.5rem;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     border-radius: 0.5rem;
-    font-family: 'Baloo';
+    font-family: 'Baloo 2';
+    font-weight: 600;
     transition: 0.3s all ease;
     color: white;
     font-size: 15px;
@@ -768,6 +776,28 @@ nav ul li{
 .ObtenerApp__button2{
     background-color: #5E39F0;
     border-color: #5E39F0;
+    background-image: url(https://i.postimg.cc/fLysXhFb/Logo-Google-Play.png);
+    background-repeat: no-repeat;
+    background-size: 160px;
+    background-position: center;
+}
+.ObtenerApp__button3{
+    background-color: #F87B08;
+    border-color: #F87B08;
+    background-image: url(https://i.postimg.cc/0j9BmGr0/Logo-App-Store.png);
+    background-repeat: no-repeat;
+    background-size: 160px;
+    background-position: center;
+}
+.ObtenerApp__button3:hover{
+    transform: translateY(-10px);
+    background-color: #ca6505; 
+    border-color: #ca6505;
+    transition: 0.3s all ease;
+}
+.ObtenerApp__button2 a, .ObtenerApp__button3 a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0);
 }
 .ObtenerApp__button2:hover{
     transform: translateY(-10px);
@@ -899,9 +929,15 @@ nav ul li{
         margin: 0px 0.4rem;
     }
 
-    .ObtenerApp__button1, .ObtenerApp__button2{
+    .ObtenerApp__button1, .ObtenerApp__button2, .ObtenerApp__button3{
         padding: 1rem;
     
+    }
+    .ObtenerApp__button2{
+        background-size: 120px;
+    }
+    .ObtenerApp__button3{
+        background-size: 130px;
     }
     .Testimonios__text__h1{
         font-family: 'Baloo 2', cursive;
@@ -948,7 +984,7 @@ nav ul li{
     }
     .overlay{
     position: absolute;
-    top: -10px;
+    top: -60px;
     left: 0;
     width: 100%;
     height: 100%;
@@ -1090,6 +1126,15 @@ nav ul li{
     .Inicio__button2{
         margin-left: 0px;
         padding: 15px 45px;
+    }
+}
+@media screen and (max-width:520px){
+    .ObtenerApp__buttons{
+       flex-direction: column;
+    }
+    .ObtenerApp__button1{
+        margin-bottom: 20px;
+        
     }
 }
 @media screen and (max-width:480px) {
