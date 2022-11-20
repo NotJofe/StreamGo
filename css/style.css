@@ -863,6 +863,9 @@ nav ul li{
     justify-content: space-evenly;
     font-weight: 400;
 }
+.Footer__container1__logos a img{
+    filter: invert(0.7);
+}
 
 @media screen and (max-width:960px){
     .header{
