@@ -1,14 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Inter:wght@100;200;300;400;500;600&display=swap');
-*{
-    box-sizing: border-box;
-}
 html{
     box-sizing: border-box;
     height: 100%;
     margin: 0;
     padding: 0;
-    scroll-behavior: smooth;
-    
+    scroll-behavior: smooth;    
 }
 section[id]{
     scroll-margin-top:140px;
@@ -23,8 +19,7 @@ nav{
     padding-top: 0.5rem;
 }
 main{
-    box-sizing: border-box;
-    
+    box-sizing: border-box;    
 }
 .header{
     font-family:'Baloo 2', cursive;
@@ -82,12 +77,11 @@ nav ul li{
 .menu__link__button{
     color:rgb(6, 0, 66);
    font-weight: 600;
-   font-size: 4
-   0px;
+   font-size: 4 0px;
    text-decoration: none;
-   transition: color 0,50s;
+   transition: color 0.5s;
    background-color: #22CBBF;
-   padding:    0.7rem;
+   padding: 0.7rem;
    border-radius: 0.5rem;
    transition: 0.5s;
 }
@@ -111,8 +105,7 @@ nav ul li{
     display: flex;
     justify-content: space-between;
     color: white;
-    margin-bottom: 4rem;
-    
+    margin-bottom: 4rem;    
 }
 .Incio__text{
     padding-right: 2rem;
