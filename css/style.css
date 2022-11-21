@@ -85,6 +85,7 @@ nav ul li{
    border-radius: 0.5rem;
    transition: 0.5s;
 }
+
 .menu__link__button:hover{
     color: white;
    font-weight: 600;
@@ -107,9 +108,11 @@ nav ul li{
     color: white;
     margin-bottom: 4rem;    
 }
+
 .Incio__text{
     padding-right: 2rem;
 }
+
 .Incio__text__subtitle{
         font-weight: 40;
         font-size: 30px;
@@ -188,6 +191,7 @@ nav ul li{
     margin-left: 6rem;
     margin-right: 6rem;
 }
+
 .Frase__imgs{
     padding-bottom: 10px;
 }
@@ -1297,6 +1301,7 @@ nav ul li{
         font-size: 15px;
     }
 }
+
 @media screen and (max-width:480px) {
     .Contactanos__body__twoinput__name, .Contactanos__body__twoinput__number,  .Contactanos__body__twoinput__lastname, .Contactanos__body__twoinput__country,  .Contactanos__body__oneinput__email, .Contactanos__body__oneinput__text{
         width: 280px;
