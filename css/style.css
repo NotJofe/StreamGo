@@ -868,8 +868,13 @@ nav ul li{
 }
 .Footer__container1__logos a img{
     filter: invert(0.7);
+    transition: 0.5s all ease;
 }
-
+.Footer__container1__logos a img:hover{
+    filter: invert(1);
+    transform: scale(1.1);
+    transition: 0.5s all ease;
+}
 @media screen and (max-width:960px){
     .header{
         z-index: 11;
