@@ -150,7 +150,7 @@ nav ul li{
     font-family: 'Baloo 2';
     font-weight: 700;
     font-size: 20px;
-    margin-right: 1rem;
+    margin-right: 0.7rem;
     color: white;
     transition: 0.3s all ease;
 }
@@ -165,7 +165,7 @@ nav ul li{
     font-family: 'Baloo 2';
     font-weight: 700;
     font-size: 20px;
-    margin-left: 1rem;
+    margin-left: 0.7rem;
     transition: 0.3s all ease;
 }
 .Inicio__button1 a, .Inicio__button2 a{
@@ -889,7 +889,7 @@ nav ul li{
     }
     .Incio__text__subtitle{
             font-weight: 38;
-            font-size: 15px;
+            font-size: 20px;
         
     }
     .Inicio__text__title{
@@ -901,7 +901,7 @@ nav ul li{
         padding-left: 0px;
     }
     .Inicio__button1, .Inicio__button2{
-        padding: 15px 30px;
+        padding: 13px 27px;
     }
     .Beneficios__body__img{
         display: none;
@@ -989,26 +989,30 @@ nav ul li{
     .Inicio__img{
         display: none;
     }
-    .overlay{
-    position: absolute;
-    top: calc(45px - 96px);
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background:rgb(13, 29, 94, 0.7);
-    }
-    .Inicio{
+    .Inicio::before{
+        content: "";
+        position: absolute;
+        top: 0; 
+        left: 0;
+        width: 100%; 
+        height: 100%;  
+        opacity: .3; 
+        z-index: -1;
         background-image:url(https://i.postimg.cc/6qHc7RSj/My-project.png);
-        background-position: center right;
-        background-position-y:90px;
+        background-position: right center;
         background-size: 300px;
         background-repeat: no-repeat;
-    }
+        
+      }
+    
     .header{
         z-index: 11;
     }
     .Incio__text{
         z-index: 10;
+    }
+    .Incio__text__subtitle{
+        font-size: 20px;
     }
     .Frase__text{
         font-size: 34px;
@@ -1170,14 +1174,6 @@ nav ul li{
     .Inicio__img{
         padding-right: 0rem;
         margin-right: 0rem;
-    }
-    .overlay{
-        position: absolute;
-        top: -40px;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background:rgb(13, 29, 94, 0.7);
     }
     .Frase__text{
         margin: 36px 50px;
