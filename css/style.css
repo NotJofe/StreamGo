@@ -4,7 +4,7 @@ html{
     height: 100%;
     margin: 0;
     padding: 0;
-    scroll-behavior: smooth;    
+    scroll-behavior: smooth;  
 }
 section[id]{
     scroll-margin-top:140px;
@@ -47,7 +47,7 @@ nav ul li{
     margin: 0px 10px;
 }
 .checkbtn{
-    font-size: 40px;
+    font-size: 45px;
     color: white;
     float: right;
     line-height: 80px;
@@ -67,11 +67,9 @@ nav ul li{
    font-size: 21px;
    transition: 0.5s all ease;
    text-decoration: none;
-  
 }
 .menu__link:hover{
     color:rgb(178, 122, 245);
-   font-weight: 400;
    font-size: 22px;
    transition: 0.5s all ease;
    
@@ -110,7 +108,6 @@ nav ul li{
     color: white;
     margin-bottom: 4rem;    
 }
-
 .Incio__text{
     padding-right: 2rem;
 }
@@ -598,6 +595,7 @@ nav ul li{
     justify-content: center;
     align-items: center;
 }
+
 .Contactanos{
     display: flex;
     justify-content: center;
@@ -717,8 +715,7 @@ nav ul li{
   z-index: -1;
   background: url(https://i.postimg.cc/vBDWsKbG/Fondo-Obten-App.jpg);
   background-position: center;
-  background-size: 1350px;
-  
+  background-size: 1150px;
 }
 
 .ObtenerApp__h2{
@@ -872,6 +869,7 @@ nav ul li{
     transform: scale(1.1);
     transition: 0.4s all ease;
 }
+
 @media screen and (max-width:960px){
     .header{
         z-index: 11;
