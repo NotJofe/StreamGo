@@ -997,10 +997,10 @@ nav ul li{
         opacity: .3; 
         z-index: -1;
         background-image:url(https://i.postimg.cc/6qHc7RSj/My-project.png);
-        background-position: right center;
+        background-position-x: right;
+        background-position-y: 100px;
         background-size: 300px;
         background-repeat: no-repeat;
-        
       }
     
     .header{
